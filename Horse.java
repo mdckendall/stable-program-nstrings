@@ -1,15 +1,26 @@
-public class Horse {
+public class Horse{
   private String name;
   private double weight;
-  private boolean on;
+  private boolean isTame;
 
-  public Horse(String name, double weight, boolean on) {
-    this.name = name;
-    this.weight = weight;
-    this.on = on;
+public Horse (String name, double weight, boolean isTame){
+  this.name = name;
+  this.weight = weight;
+  this.isTame = isTame;
+}
+
+
+  public String getName(){
+    return this.name;
+
   }
-  
-public String toString() {
-    return "Name: " + name + "Weight: " + weight + "Tame: " + on;
+  public double getWeight(){
+    return this.weight;
   }
+  public boolean getisTame(){
+    return this.isTame;
+  }
+
+
+
 }
