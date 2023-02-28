@@ -29,8 +29,6 @@ class Main {
       }
     } while (true);
 
-    System.out.println("\n\n [HORSE INFORMATION]: \n\n ADDRESS: \n\n" + s.address + "\n\n");
-
     for (int i = 0; i < s.horseArrayList.size(); i++) {
 
       System.out.println("Horse # " + (i + 1) + " " + s.horseArrayList.get(i));

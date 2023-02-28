@@ -10,6 +10,6 @@ public class Horse {
   }
   
 public String toString() {
-    return "Name: " + name + " \n\nWeight: " + weight + " \n\nTame: " + on + "\n\n";
+    return "Name: " + name + "Weight: " + weight + "Tame: " + on;
   }
 }
